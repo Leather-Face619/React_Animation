@@ -10,7 +10,9 @@ const LandingPage = () => {
         {["WE CREATE", "EYE-OPENING", "PRESENTATIONS"].map((item, index) => {
           return <div key={index} className='mask w-fit flex items-end text-9xl leading-[8vw] font-[found]'>{index == 1 && (
           
-          <motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.68, -0.6, 0.32, 1.6],duration:1} } className='w-[9vw] h-[6vw] relative top-3 mr-2 bg-red-700 rounded-lg '></motion.div>) }
+          <motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.68, -0.6, 0.32, 1.6],duration:1} } className='w-[9vw] h-[6vw] relative top-3 mr-2 bg-[url(https://images5.alphacoders.com/132/1325119.png)]  bg-cover bg-center rounded-lg '>
+
+          </motion.div>) }
             <h1 className=' pt-[2vw] -mb-[1vw] uppercase text-[9vw] leading-[0.75]'>{item}</h1>
             </div>
         })}

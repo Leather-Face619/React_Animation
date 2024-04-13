@@ -10,19 +10,19 @@ import Footer from './components/Footer'
 import LocomotiveScroll from 'locomotive-scroll';
 
 
-
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className=' w-full min-h-screen text-white bg-zinc-800'>
-       <Navi />
-      <LandingPage/>
-      <Mark/>
-      <About/>
-      <Eye/>
-      <Feachured/> 
-    <Cards/>
-    <Footer/>
+      <Navi />
+      <LandingPage />
+      <Mark />
+      <About />
+      <Eye />
+      <Feachured />
+      <Cards />
+      <Eye />
+      <Footer />
     </div>
   )
 }
